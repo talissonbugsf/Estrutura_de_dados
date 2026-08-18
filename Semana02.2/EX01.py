@@ -6,9 +6,8 @@ class No:
 def menu():
     print("1 - inserir item.")
     print("2 - listar itens.")
-    print("3 - Buscar Itens.")
-    print("4 - Retirar Itens.")
-    print("5 - Sair.")
+    print("3 - Retirar Itens.")
+    print("4 - Sair.")
     opcao = int(input("Digite a opção:"))
     return opcao
 
@@ -62,9 +61,6 @@ def main():
         elif opc == 2:
             listar(lista)
         elif opc == 3:
-            dado = float(input("Dado para buscar:"))
-            buscar(lista, dado)
-        elif opc == 4:
             dado = float(input("Dado parar retirar:"))
             lista = remover(lista, dado)
 
