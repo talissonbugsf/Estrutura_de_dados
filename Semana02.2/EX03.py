@@ -63,7 +63,7 @@ def main():
     lista = None
     opc = 0
 
-    while opc != 4:
+    while opc != 5:
         opc = menu()
         if opc == 1:
             dado = float(input("Digite um dado:"))
