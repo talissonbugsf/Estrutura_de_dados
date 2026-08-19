@@ -68,7 +68,7 @@ def main():
     opc = 0
     n = float(input("Digite um valor para 'n':"))
 
-    while opc != 4:
+    while opc != 5:
         opc = menu()
         if opc == 1:
             dado = float(input("Digite um dado:"))
