@@ -58,8 +58,6 @@ def lista_altera(lista):
     while aux != None:
         aux.dado = -aux.dado
         aux = aux.proximo
-        
-        
 def main():
     lista = None
     opc = 0
