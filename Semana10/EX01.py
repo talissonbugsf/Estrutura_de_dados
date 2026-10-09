@@ -57,7 +57,7 @@ class Deque:
             return
         aux = self.head
         while aux != None:
-            print(f"- {aux.dado};")
+            print(f"- {aux.chamado};")
             aux = aux.proximo
 
 def menu():
